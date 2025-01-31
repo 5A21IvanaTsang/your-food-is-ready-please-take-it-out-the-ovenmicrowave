@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="4)8:[0i0@)[*)fA4aErh">Minutes</variable><variable id="]nVi3:mqU=n/WyF,5VBo">Seconds</variable></variables><block type="pxt-on-start" id="r4je@^N0#32%u/k2h@HR" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="7BJ^a,ifS=F:}Guo_%C*"><field name="i">IconNames.Happy</field><next><block type="device_print_message" id=",)xLU*zOU~+IYo@K~V#:"><value name="text"><shadow type="text" id="7-y3{DsXZ;(ONKe#vIqc"><field name="TEXT">HELLO </field></shadow></value><next><block type="device_show_leds" id="Rq*;GS.=?}Zl((o4+6}n"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="basic_show_arrow" id="w1LQS5ggbl])_(={fVeZ"><value name="i"><shadow type="device_arrow" id="7-Wta^v3}]=cIw;c%4YN"><field name="arrow">ArrowNames.West</field></shadow></value><next><block type="device_print_message" id="Kb2L7*jtdxS9CS]ZpG;/"><value name="text"><shadow type="text" id="6aaSg-sMSGtnIJ}FJ{-G"><field name="TEXT">Press A to set minutes </field></shadow></value><next><block type="device_show_leds" id=";Q}mJ99g)|TbA}0w,ePW"><field name="LEDS">`
+        . # # # . 
+        . # . . # 
+        . # # # . 
+        . # . . # 
+        . # # # .
+        `</field><next><block type="basic_show_arrow" id="0x%.E@te8F=^iVRyGsj;"><value name="i"><shadow type="device_arrow" id="Vy[JKd0=rSwSVQW:65n{"><field name="arrow">ArrowNames.East</field></shadow></value><next><block type="device_print_message" id="VmUi}8k:GOWHv}@CFpGe"><value name="text"><shadow type="text" id="f=DGrF$56n9]gO0[kkIv"><field name="TEXT">Press B to set second </field></shadow></value><next><block type="device_show_leds" id="LfHu)(_%`,mmWnhN`Br^"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id=";@7F2uz%)I)0NN+V1`Un"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="DJ~T~l^fd)zUB)jnd/NI"><field name="LEDS">`
+        . # # . . 
+        . # . # . 
+        . # # . . 
+        . # . # . 
+        . # # . .
+        `</field><next><block type="device_show_number" id="phcJ4,pRaf|y}}ezYafw"><value name="number"><shadow type="math_number" id="|JACzTC6EHYKb}s64|ip"><field name="NUM">0</field></shadow><block type="variables_get" id="?n#^5634tV4tWkp^R7/u"><field name="VAR" id="4)8:[0i0@)[*)fA4aErh">Minutes</field></block></value><next><block type="device_show_number" id="c)M`Ie_*Sm-[]Mq[7PC%"><value name="number"><shadow type="math_number" id=";^Ql]-fDJ*:28=#8MV|?"><field name="NUM">0</field></shadow><block type="variables_get" id="VJzf40E,89@k=Rd9=|mW"><field name="VAR" id="]nVi3:mqU=n/WyF,5VBo">Seconds</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="|r|2:UfTgMUBk|~:]]5x" x="340" y="71"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_change" id="efg?pORiM_u6$ZAf6s_f"><field name="VAR" id="]nVi3:mqU=n/WyF,5VBo">Seconds</field><value name="VALUE"><shadow type="math_number" id="*2x6#Er{tEXY^@hF%v5a"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="bs5$UDV9DX%/BW$q3|%-" x="420" y="272"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="c3!,vv`nsl!cy1ae*.`|"><field name="VAR" id="4)8:[0i0@)[*)fA4aErh">Minutes</field><value name="VALUE"><shadow type="math_number" id="6b)=C~T]58:b?R};eHVy"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="Tvi7k}Unqw4yZ_2:ii73" x="428" y="426"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_clear_display" id="=n_L/qkEgS|ukD}}7~~u"></block></statement></block></xml>
